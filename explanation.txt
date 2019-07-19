@@ -1,0 +1,17 @@
+Readme file:
+
+the GUI application start from:
+
+1- [login class] where the employee enter his/her name and password to enter the system
+
+2-after verification the employee can add customer to the system, view customers already exist in the system, view flight available, view percentage of flights to a  country, then finally they can reserve a ticket to a customer.
+
+the webservice have the following class [customer, customers, MyResource,mySQLConn]
+through web service the emplyee can:
+
+1- change the address of a customer after searching him in the database and will return the edited customer record to the user else error.
+
+2- gettAll where the employee can get all the customer he has on the database
+
+3-get customer by id, will search the db to find a customer with the entered value of id if its found it will return the customer if not an error will be returned.
+
